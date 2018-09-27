@@ -1,4 +1,4 @@
-let symbolSize = 20;
+let symbolSize = 18;
 let streams = [];
 
 
@@ -68,7 +68,7 @@ function Stream() {
 
 	this.symbols = [];
 	this.totalSymbols = round(random(20, 50));
-	this.speed = random(15, 20);
+	this.speed = random(2, 5);
 
 	this.generateSymbols = (x, y) => {
 		let first = round(random(0, 4)) == 1;
